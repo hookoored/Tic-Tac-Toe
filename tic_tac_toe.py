@@ -43,9 +43,9 @@ def win_game ():
         if memory[0][item] == memory[1][item] == memory[2][item]and memory[0][item] != '-':#Checks vertical wins
             print memory[0][item] + " WINS"
         
-    if memory[0][2] == memory [1][1] == memory[2][0] and memory [1][1] != '-':#Checks bottom-left to top-right diagnol
+    if memory[0][2] == memory [1][1] == memory[2][0] and memory [1][1] != '-':#Checks bottom-left to top-right diagonal
         print memory[0][2] + ' WINS!'
-    if memory[0][0] == memory[1][1] == memory[2][2] and memory [1][1] != '-':#Checks top-left to bottom-right diagnol
+    if memory[0][0] == memory[1][1] == memory[2][2] and memory [1][1] != '-':#Checks top-left to bottom-right diagonal
         print memory[0][0] + ' WINS!'
         
         
